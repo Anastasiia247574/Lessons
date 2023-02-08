@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 2</title>
+</head>
+<body>
+    Привіт, кицю!
+
+
+    <!-- Теги для построения -->
+<div>
+    <!-- Строительный тег без конкретного предназначения (семантика) -->
+</div>
+
+<!-- HEADER - Строительный тег для построени верхней части -->
+<header>
+    <!-- наполнение хедера -->
+</header>
+
+<footer>
+    <!-- наполнение футера -->
+</footer>
+
+<main>
+    <!-- Тег для построения главной части сайта (должен быть только один на странице) -->
+</main>
+
+ <!-- строительные теги никак не изменяю контент -->
+ Текст
+ <div>Текст</div>
+
+ <!-- Теги для контента --> 
+ <!-- контентные теги могут изменять контент
+ -->
+ <!-- H1-H6 - теги для заглавий -->
+<H1>Загаловок №1</H1>
+<!-- H1 может бытьь только один на странице. Он самый главный. -->
+<H2>Загаловок №1</H2>
+<H3>Загаловок №2</H3>
+<H4>Загаловок №3</H4>
+<H6>Загаловок №6</H6>
+
+<a href="#p1" class="link">Хочу вниз к тексту</a>
+
+<!-- P - тег параграфа -->
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit facilis neque iure cum cupiditate, velit a delectus tempora omnis quam, molestiae aspernatur unde temporibus eum officia perferendis porro asperiores. Magnam!
+</p>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, eius!
+</p>
+<p>
+    Lorem <span>ipsum</span> dolor sit amet <mark>consectetur</mark> adipisicing elit. Odio, vel accusamus! Provident vel amet laboriosam saepe rerum recusandae animi temporibus, eos quidem ipsum laudantium aspernatur vero blanditiis eveniet repellendus obcaecati.
+    Consequuntur esse ipsum unde. Hic alias sunt quae velit illum beatae conseq. Nesciunt, quaerat facere minus omnis doloremque nemo eos. Dolore, consectetur.
+</p>
+<!-- MARK и SPAN - выделение слова(-ов) -->
+
+<!-- BR - прерывает строку текста -->
+<p>
+    Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Asperiores, eius!
+</p>
+
+
+<!-- UL+LI Маркированный список -->
+
+<ul>
+    <li>Пункт списка</li>
+    <li>Пункт списка</li>
+    <li>Пункт списка</li>
+    <li>Пункт списка</li>
+
+</ul>
+
+<!-- OL+LI - нумерованный список -->
+<ol>
+    <li>Пункт списка</li>
+</ol>
+
+<!-- Вложенность списков -->
+
+<ul>
+    <li>Пункт списка
+        <ul>
+            <li>Еще один пункт списка(подпункт)</li>
+        </ul>
+        <ul>
+            <li>Еще один пункт списка(подпункт)</li>
+        </ul>
+        <ul>
+            <li>Еще один пункт списка(подпункт)</li>
+        </ul>
+    </li>
+    <li>Пункт списка</li>
+    <li>Пункт списка</li>
+    <li>Пункт списка</li>
+</ul>
+
+<!-- IMG - выведение изображения -->
+<!-- Содержит аттрибуты, обязательные для использования:
+srs - путь к изображению (файлу) 
+alt - альтернативный текст 
+-->
+<img width="400" src="img/01.jpg" alt="Лисичка за ноутбуком">
+
+<!-- A - гипертекстовая ссылка -->
+<!-- <a herf= "адрес"> Текст(анкор)</a> -->
+
+<p><a href="https://otkritkionline.ru/skuchayu/958060588756">Тыцни тут</a></p>
+
+<!-- Аттрибут тега "а": target - устонавливает где именно должен открыться адрес (в примере ссылка открывается в новой вкладке)-->
+<p><a target="_blank" href="https://otkritkionline.ru/skuchayu/958060588756">Тыцни тут</a></p>
+
+
+<!-- Часто используемые аттрибуты -->
+<!-- CLASS - добавляет классы (классы)
+имена классов пишем латиницей, в нижнем регистре, пробел заменяем на дефис
+-->
+<!-- DIV с классом block: -->
+<div class="block"></div>
+<!-- Чтобы написать DIV с классом быстро - " . + имя класса (block) + tab " -->
+<div class="black"></div>
+<!-- Чтобы написать тег с классом: " тег + . + название класса + tab (header.header)" -->
+<header class="header"></header>
+
+<!-- TITLE - подсказка -->
+<p title="Я текст" class="text">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit aperiam atque ad beatae ipsum veritatis a molestias rem quis quo! Architecto maxime harum sapiente! Debitis aliquid pariatur at reprehenderit saepe!
+</p>
+
+<!-- ID - УНИКАЛЬНЫЙ индетификатор (объект с таким id может быть только один на странице) -->
+<div class="text">
+    <p id="p1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, obcaecati?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto iste qui, itaque beatae tempora quo laborum quaerat sed id illo doloribus dolorum quos libero exercitationem maxime! Facere voluptate necessitatibus dolores?
+        Eveniet consequuntur esse, expedita doloremque quod necessitatibus ea maiores fuga vel voluptatibus eos odio, ab et inventore, voluptas provident officia porro exercitationem atque! Numquam eligendi eum, magnam illo enim facere!
+        Accusamus similique ratione et assumenda maxime ab vel fuga doloremque. Eum corrupti quaerat, earum blanditiis deserunt sit repellendus magnam quis. Voluptatem quos tempora laudantium praesentium nesciunt sint ipsa distinctio ut?
+        Delectus quo alias porro veritatis, tenetur fuga tempora ut, temporibus, nam quae doloribus non fugit! Eveniet iusto sed in, maxime, magni, aperiam nisi et officia possimus explicabo adipisci. Impedit, architecto.
+        Dignissimos ullam quidem dolorum vero quae accusantium, maiores distinctio ipsa maxime mollitia dolorem similique. Magni totam repellendus minima! Soluta reprehenderit earum fuga veniam voluptate iusto beatae odit optio consectetur impedit.
+        Inventore reiciendis molestias amet itaque, doloribus tempora? Enim sapiente sed quidem fugit maxime magnam excepturi mollitia doloribus similique eius quae voluptates aliquam, fuga beatae unde cupiditate aperiam eaque cum dolor.
+        Iste provident, officia architecto vel beatae commodi in. Sit porro nulla odio quibusdam at, cupiditate eveniet rerum, nisi provident quis culpa ipsum quos accusantium delectus eligendi! Explicabo vitae tenetur maiores.
+        Consequuntur excepturi voluptatibus consectetur facere exercitationem ducimus omnis similique ab assumenda officiis id asperiores laudantium sapiente aut, suscipit distinctio, aperiam, amet placeat et iusto. Assumenda quasi ipsam inventore quas debitis?
+        Natus id quisquam esse amet maxime illum nisi deleniti at illo cupiditate adipisci necessitatibus pariatur consectetur quos ipsam impedit, ad similique aliquid consequatur? Beatae eligendi totam, atque quis iure voluptas.
+        Minus cupiditate recusandae corporis, cum facere, corrupti, similique sed eum enim quo a ut. Exercitationem eos tempore quia ratione. Quidem eum eius recusandae eaque laudantium ea suscipit consequuntur, tempora deleniti.
+        Voluptate voluptatibus quidem, nesciunt, delectus aperiam quod minus facilis veritatis fugit ea corrupti ratione libero dolor hic vero enim soluta id, atque tempore laborum. Vel sed perferendis suscipit blanditiis facere?
+        Soluta eveniet cumque perferendis adipisci vel. Dignissimos laudantium molestiae dolor fuga dolores aspernatur distinctio velit ab, veritatis expedita pariatur eius fugiat explicabo veniam sit deleniti porro quae quidem consequuntur quas.
+    </p>
+</div>
+
+<!-- БЛОЧНЫЕ/ СТРОЧНЫЕ и БЛОЧНО-СТРОЧНЫЕ теги -->
+
+<!-- Блочные теги -->
+<!-- Все строительные: div, header, footer, main, и другие -->
+<!-- Среди тегов для контента это: H1-H6, p, ul, ol, li, br -->
+<!-- Блочный тег всегда занимает всю ширину родительского елемента
+Блочный тег всегда наинается с новой строчки (отдельно)  -->
+ 
+<!-- Строччные теги: -->
+<!-- span, mark, a -->
+
+<!-- Блочно-Строчные : IMG  -->
+
+<div class="block">
+    Привет
+</div>
+Как дела?
+<br>
+<span>Привет</span>
+Как дела?
+
+<!-- Ширина блочно-строчных тегов занимает ширину контента внутри, так же как и у строчного тега 
+Строчный тг пытается разместиться в строчку с другими строчными тегами или текстом
+-->
+<p>
+<div>
+    Текст до
+    <img width="400" src="img/01.jpg" alt="">
+    Текст после
+</div>
+</p>
+
+
+
+</body>
+</html>
